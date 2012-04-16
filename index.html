@@ -39,7 +39,7 @@
 
 <div id="map" class="tab-pane active">
 	<h2>Карта</h2>
-
+	<button class="btn" onclick="click_unit()">Клик по юниту</button>&nbsp;<button class="btn" onclick="click_city()">Клик по городу</button>
 
 </div>
 <div id="diplomacy" class="tab-pane">
@@ -83,8 +83,90 @@
 			</div><!-- #content-->
 		</div><!-- #container-->
 
+
+
+
+
+
 		<div class="sidebar" id="sideRight">
-			<strong>Right Sidebar:</strong> Integer velit. Vestibulum nisi nunc, accumsan ut, vehicula sit amet, porta a, mi. Nam nisl tellus, placerat eget, posuere eget, egestas eget, dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elementum urna a eros. Integer iaculis. Maecenas vel elit.
+
+<div class="sidebar_panel hidden" id="sp_unit">
+	<div class="unit_title">Артиллерия</div>
+	Имя: Потный бригадир<br>
+	<span class="label label-important">Атака</span> 7 <span class="label label-success">Защита</span> 3 <span class="label label-info">Обзор</span> 1 <span class="label label-inverse">Ходов</span> 4<br>
+	<span class="label label-important">Атака 7</span>  <span class="label label-success">Защита 3</span>  <span class="label label-info">Обзор 1</span>  <span class="label label-inverse">Ходов 4</span><br>
+	<br>
+	Атака: <span class="badge badge-error">7</span>&nbsp;&nbsp;
+	Защита: <span class="badge badge-success">3</span>&nbsp;&nbsp;
+	Обзор: <span class="badge badge-info">1</span>&nbsp;&nbsp;
+	Ходов: <span class="badge badge-inverse">4</span><br>
+	Ресурсы: <b>27</b>&nbsp;&nbsp;&nbsp;Потери: <b>0</b><br>
+	<br>
+
+	<table>
+		<tr>
+			<td>Приказ:</td>
+			<td>
+				<div class="btn-group">
+						<button class="btn btn-mini dropdown-toggle" data-toggle="dropdown">Перехват</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">нет приказа</a></li>
+							<li><a href="#">Агрессивная атака</a></li>
+							<li><a href="#">Осторожная атака</a></li>
+							<li><a href="#">Ретироваться</a></li>
+							<li><a href="#">Держать позицию</a></li>
+							<li><a href="#">Перехват</a></li>
+							<li><a href="#">Охота</a></li>
+							<li><a href="#">Укрепиться</a></li>
+							<li><a href="#">Залп по квадрату</a></li>
+							<li><a href="#">Самоуничтожение</a></li>
+						</ul>
+					</div>
+			</td>
+		</tr>
+	</table>
+	<span style="float:left;">Приказ:&nbsp;</span>
+	<div class="btn-group">
+		<button class="btn btn-mini dropdown-toggle" data-toggle="dropdown">Перехват</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">нет приказа</a></li>
+			<li><a href="#">Агрессивная атака</a></li>
+			<li><a href="#">Осторожная атака</a></li>
+			<li><a href="#">Ретироваться</a></li>
+			<li><a href="#">Держать позицию</a></li>
+			<li><a href="#">Перехват</a></li>
+			<li><a href="#">Охота</a></li>
+			<li><a href="#">Укрепиться</a></li>
+			<li><a href="#">Залп по квадрату</a></li>
+			<li><a href="#">Самоуничтожение</a></li>
+		</ul>
+	</div>
+
+	<span style="float:left;">Цели:&nbsp;</span>
+	<div class="btn-group">
+		<button class="btn btn-mini dropdown-toggle" data-toggle="dropdown">Перехват</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">нет приказа</a></li>
+			<li><a href="#">Агрессивная атака</a></li>
+			<li><a href="#">Осторожная атака</a></li>
+			<li><a href="#">Ретироваться</a></li>
+			<li><a href="#">Держать позицию</a></li>
+			<li><a href="#">Перехват</a></li>
+			<li><a href="#">Охота</a></li>
+			<li><a href="#">Укрепиться</a></li>
+			<li><a href="#">Залп по квадрату</a></li>
+			<li><a href="#">Самоуничтожение</a></li>
+		</ul>
+	</div>
+
+</div>
+
+
+
+			<div class="sidebar_panel hidden" id="sp_city">
+	sp city
+</div>
+
 		</div><!-- .sidebar#sideRight -->
 
 	</div><!-- #middle-->
